@@ -1,0 +1,7 @@
+function getDouble(number)
+{
+  
+return 2 * number;
+
+}
+getDouble(4);
