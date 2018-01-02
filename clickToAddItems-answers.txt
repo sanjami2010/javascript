@@ -1,0 +1,25 @@
+1,What happens when you leave num1 or num2 empty?
+
+ans: Alert message pops out saying:"Num1 must be filled in with a number" , if
+num1 text box is left empty. and so as is the num 2 text box.
+
+2,For browsers that do not support the input type of "number," what happens when you enter in alphanumeric (letters and numbers) values?
+
+ans: alphabes  do work in both num1 and num2 text boxes.
+
+3,What happens if you enter "0" for num2? How does JavaScript handle the divide-by-zero situation?
+
+ans:In this function, we will use the clearErrors() function so that we can reset our errors state to a cleared state. We will then use value to get the entered value from the <input> boxes. If those values are either empty ("") or not a number (isNaN()), then we will:
+
+Display an alert() message stating that the respective input box needs to be a number.
+Add the Bootstrap has-error class to the form-group.
+Set the focus() to the input box in error.
+Return "false" to prevent form submission.
+
+
+num1 empty---result alert to enter number in num1
+num1 0------- result:nan
+num1 any number----result is infinity
+
+
+num2 is 0 in all the cases then in division case the above is observed
